@@ -13,5 +13,7 @@ Go:
     go build compute-all-go.go
 ```
 
-Source code for D and Nim was taken from their website.
+Source code for D and Nim was taken from their website. The result can be seen here (generated using [draw.py](draw.py)):
+
+![Binary size result](compare-bin-size.png)
 
