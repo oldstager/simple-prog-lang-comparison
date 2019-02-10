@@ -1,8 +1,0 @@
-D:
-    dmd -release computeAllD.d
-Nim:
-    nim c -d:release computeAllNim.nim
-Rust:
-    rustc -C opt-level=3 compute-all-rust.rs
-Go:
-    go build compute-all-go.go
