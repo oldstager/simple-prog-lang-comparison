@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 objects = ('Nim', 'D', 'Go', 'Rust')
 y_pos = np.arange(len(objects))
-performance = [77912,1125456,1928988,2431176]
+performance = [77944,1345624,2019395,2463888]
 
 plt.bar(y_pos, performance, align='center', alpha=0.5)
 plt.xticks(y_pos, objects)
